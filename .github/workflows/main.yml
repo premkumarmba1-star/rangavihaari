@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Demo Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      color: #d63384;
+      font-size: 40px;
+    }
+    p {
+      font-size: 20px;
+      color: #333;
+    }
+    a {
+      display: inline-block;
+      margin: 20px 0;
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #d63384;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #b82d6b;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to My Demo Website</h1>
+  <p>This is a simple HTML website created for demo purposes.</p>
+  
+  <a href="https://example.com" target="_blank">Visit Example.com</a><br>
+
+  <button onclick="alert('Hello! Thanks for clicking.')">Click Me</button>
+
+</body>
+</html>
